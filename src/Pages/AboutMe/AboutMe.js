@@ -22,7 +22,7 @@ const AboutMe = () => {
         <span className={cx("label")}>
           <FaAddressCard className={cx("icon")} />
         </span>
-        <span className={cx("ctx")}>Backend Developer</span>
+        <span className={cx("ctx")}>Web Developer</span>
       </div>
       <div className={cx("text", "align-center")}>
         <span className={cx("label")}>
@@ -35,16 +35,16 @@ const AboutMe = () => {
       <div className={cx("alert")}>
         Hi there, welcome to look at my profile!
         <br />
-        In <strong>1+ years</strong> of JavaScript experience. I'm passionate
-        about creating seamless user experiences and believe that simplifying
-        code leads to more agile applications.
+        I'm studying and working with JavaScript. I'm passionate about creating
+        seamless user experiences and believe that simplifying code leads to
+        more agile applications.
       </div>
       <div className={cx("text-sub")}>
         <span className={cx("label", "mg-top")}>
           <RiReactjsFill className={cx("icon", "cl-react")} />
         </span>
         <span className={cx("ctx")}>
-          <strong>Front-end:</strong> I have experience working with
+          <strong>Front-end:</strong> I can work with
           <strong>
             {" "}
             ReactJS (NextJS, Hook, Redux Toolkit), Material UI, TailwindCSS,
@@ -57,10 +57,10 @@ const AboutMe = () => {
           <BsFillHexagonFill className={cx("icon", "cl-node")} />
         </span>
         <span className={cx("ctx")}>
-          <strong>Back-end:</strong> I have experience working with
+          <strong>Back-end:</strong> I can work with
           <strong>
             {" "}
-            Node.JS, TypeScript, ExpressJS, NestJS, MongoDB, MySQL, and other
+            Node.JS, NestJS, TypeScript, ExpressJS, MongoDB, MySQL, and other
             technologies.
           </strong>
         </span>
@@ -82,12 +82,14 @@ const AboutMe = () => {
           <a
             href="https://github.com/quochoangdev"
             className={cx("bl-icon", "bg-github")}
+            target="black"
           >
             <RxGithubLogo className={cx("icon")} />
           </a>
           <a
             href="https://www.facebook.com/quochoang.pham.3701/"
             className={cx("bl-icon", "bg-facebook")}
+            target="black"
           >
             <FaFacebookF className={cx("icon")} />
           </a>

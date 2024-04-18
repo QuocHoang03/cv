@@ -70,14 +70,16 @@ const Education = () => {
         {/* Duy Tan University */}
         <div className={cx("one-company")}>
           <div className={cx("left")}>
-            <a
-              href="https://duytan.edu.vn/"
-              target="black"
-              className={cx("title")}
-            >
-              Duy Tan University
+            <div className={cx("title")}>
+              <a
+                href="https://duytan.edu.vn/"
+                target="black"
+                className={cx("text")}
+              >
+                Duy Tan University
+              </a>
               <FaExternalLinkAlt className={cx("icon")} />
-            </a>
+            </div>
             <h3 className={cx("role")}>
               I'm studying software engineering in college and I decided to
               choose a job as a Web Developer.

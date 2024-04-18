@@ -42,62 +42,6 @@ const Projects = () => {
             alt=""
           />
         </a>
-        <a href="/" className={cx("project")}>
-          <div className={cx("bl-img")}></div>
-          <div className={cx("content")}>
-            <div className={cx("title")}>
-              POD FOODS <FaExternalLinkAlt className={cx("icon")} />
-            </div>
-            Software and data-enabled distribution and logistics platform!
-          </div>
-          <img
-            className={cx("img")}
-            src="https://cv.trungquandev.com/public/img/projects/p-3.jpeg"
-            alt=""
-          />
-        </a>
-        <a href="/" className={cx("project")}>
-          <div className={cx("bl-img")}></div>
-          <div className={cx("content")}>
-            <div className={cx("title")}>
-              POD FOODS <FaExternalLinkAlt className={cx("icon")} />
-            </div>
-            Software and data-enabled distribution and logistics platform!
-          </div>
-          <img
-            className={cx("img")}
-            src="https://cv.trungquandev.com/public/img/projects/p-4.jpeg"
-            alt=""
-          />
-        </a>
-        <a href="/" className={cx("project")}>
-          <div className={cx("bl-img")}></div>
-          <div className={cx("content")}>
-            <div className={cx("title")}>
-              POD FOODS <FaExternalLinkAlt className={cx("icon")} />
-            </div>
-            Software and data-enabled distribution and logistics platform!
-          </div>
-          <img
-            className={cx("img")}
-            src="https://cv.trungquandev.com/public/img/projects/p-5.jpeg"
-            alt=""
-          />
-        </a>
-        <a href="/" className={cx("project")}>
-          <div className={cx("bl-img")}></div>
-          <div className={cx("content")}>
-            <div className={cx("title")}>
-              POD FOODS <FaExternalLinkAlt className={cx("icon")} />
-            </div>
-            Software and data-enabled distribution and logistics platform!
-          </div>
-          <img
-            className={cx("img")}
-            src="https://cv.trungquandev.com/public/img/projects/p-6.jpeg"
-            alt=""
-          />
-        </a>
       </div>
     </>
   );

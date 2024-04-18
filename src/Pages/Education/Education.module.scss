@@ -19,16 +19,19 @@
             flex: 1;
 
             .title {
-                display        : flex;
-                align-items    : flex-end;
-                font-weight    : 600;
-                color          : var(--color-title);
-                margin-bottom  : 6px;
-                text-decoration: none;
+                display    : flex;
+                align-items: center;
+                color      : var(--color-title);
 
-                &:hover {
-                    color          : var(--text-hover);
-                    text-decoration: underline;
+                .text {
+                    font-weight    : 600;
+                    margin-bottom  : 6px;
+                    text-decoration: none;
+
+                    &:hover {
+                        color          : var(--text-hover);
+                        text-decoration: underline;
+                    }
                 }
 
                 .icon {

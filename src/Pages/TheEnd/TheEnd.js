@@ -18,7 +18,7 @@ const TheEnd = () => {
         </li>
         <img
           className={cx("img")}
-          src="https://cv.trungquandev.com/public/img/trungquandev-the-end-cover.jpg"
+          src="https://res.cloudinary.com/daofedrqe/image/upload/v1713437321/bwpogy8kle0n0f5etk3e.webp"
           alt=""
         />
       </ul>

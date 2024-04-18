@@ -18,6 +18,8 @@ import { IoLogoCss3 } from "react-icons/io";
 import { SiRedux } from "react-icons/si";
 import { FaGitlab } from "react-icons/fa";
 import { FaTrello } from "react-icons/fa";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 
 const cx = classNames.bind(styles);
 const Skills = () => {
@@ -26,21 +28,81 @@ const Skills = () => {
       <h1 className={cx("name")}>Skills</h1>
       <div className={cx("desc")}>Programming Languages & Tools:</div>
       <div className={cx("bl-languages")}>
-        <IoLogoJavascript className={cx("language", "javaScript")} />
-        <SiTypescript className={cx("language", "typeScript")} />
-        <RiReactjsFill className={cx("language", "reactJs")} />
-        <FaNode className={cx("language", "nodeJs")} />
-        <SiNestjs className={cx("language", "nestJs")} />
-        <DiMongodb className={cx("language", "mongodb")} />
-        <GrMysql className={cx("language", "mysql")} />
-        <FaHtml5 className={cx("language", "html5")} />
-        <IoLogoCss3 className={cx("language", "css3")} />
-        <SiTailwindcss className={cx("language", "tailwind")} />
-        <FaBootstrap className={cx("language", "bootstrap")} />
-        <SiRedux className={cx("language", "redux")} />
-        <FaGithub className={cx("language", "github")} />
-        <FaGitlab className={cx("language", "gitlab")} />
-        <FaTrello className={cx("language", "trello")} />
+        <Tippy content="JavaScript">
+          <button>
+            <IoLogoJavascript className={cx("language", "javaScript")} />
+          </button>
+        </Tippy>
+        <Tippy content="TypeScript">
+          <button>
+            <SiTypescript className={cx("language", "typeScript")} />
+          </button>
+        </Tippy>
+        <Tippy content="ReactJs">
+          <button>
+            <RiReactjsFill className={cx("language", "reactJs")} />
+          </button>
+        </Tippy>
+        <Tippy content="NodeJs">
+          <button>
+            <FaNode className={cx("language", "nodeJs")} />
+          </button>
+        </Tippy>
+        <Tippy content="NestJs">
+          <button>
+            <SiNestjs className={cx("language", "nestJs")} />
+          </button>
+        </Tippy>
+        <Tippy content="MongoDB">
+          <button>
+            <DiMongodb className={cx("language", "mongodb")} />
+          </button>
+        </Tippy>
+        <Tippy content="MySql">
+          <button>
+            <GrMysql className={cx("language", "mysql")} />
+          </button>
+        </Tippy>
+        <Tippy content="HTML5">
+          <button>
+            <FaHtml5 className={cx("language", "html5")} />
+          </button>
+        </Tippy>
+        <Tippy content="CSS3">
+          <button>
+            <IoLogoCss3 className={cx("language", "css3")} />
+          </button>
+        </Tippy>
+        <Tippy content="Tailwind">
+          <button>
+            <SiTailwindcss className={cx("language", "tailwind")} />
+          </button>
+        </Tippy>
+        <Tippy content="Bootstrap">
+          <button>
+            <FaBootstrap className={cx("language", "bootstrap")} />
+          </button>
+        </Tippy>
+        <Tippy content="Redux">
+          <button>
+            <SiRedux className={cx("language", "redux")} />
+          </button>
+        </Tippy>
+        <Tippy content="Github">
+          <button>
+            <FaGithub className={cx("language", "github")} />
+          </button>
+        </Tippy>
+        <Tippy content="Gitlab">
+          <button>
+            <FaGitlab className={cx("language", "gitlab")} />
+          </button>
+        </Tippy>
+        <Tippy content="Trello">
+          <button>
+            <FaTrello className={cx("language", "trello")} />
+          </button>
+        </Tippy>
       </div>
       <div className={cx("desc")}>Workflow:</div>
       <ul className={cx("list-skill")}>

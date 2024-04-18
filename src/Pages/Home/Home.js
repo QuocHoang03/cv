@@ -12,11 +12,11 @@ import { IoClose } from "react-icons/io5";
 
 const cx = classNames.bind(styles);
 const Home = () => {
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-    });
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo({
+  //     top: 0,
+  //   });
+  // }, []);
   const [isShowImage, setIsShowImage] = useState(false);
   const [active, setActive] = useState(false);
   const handleShowImage = () => {
@@ -152,9 +152,9 @@ const Home = () => {
         </div>
         <hr className={cx("hr")} />
         <div id="interests" className={cx("renderSidebar")}>
-          <div className={cx("block-2")}>
-            <Interests />
-          </div>
+          {/* <div className={cx("block-2")}> */}
+          <Interests />
+          {/* </div> */}
         </div>
         <div id="theEnd" className={cx("renderSidebar")}>
           <div className={cx("block-2")}>
